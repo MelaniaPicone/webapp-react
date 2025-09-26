@@ -1,11 +1,17 @@
-import React from 'react'
+import styles from "../modules/Header.module.css";
 
 const Header = () => {
   return (
-    <div>
-      <div>Header</div>
-    </div>
-  )
+  <header className="container fluid">
+  <div className="row">
+<div className="col-12">
+
+<h1>BoolMovies</h1>
+
+</div>
+  </div>
+  
+  </header> )
 }
 
 export default Header
